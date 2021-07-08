@@ -1,0 +1,93 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'style1.css' %}" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %} 
+
+       <br>
+
+       <div class="mb-3 row">
+        <label for="" class="col-sm-2 col-form-label"><i><b>IMAGE</b></i></label>
+        <div class="col-sm-10">
+          <input type="file"  class="form-control" id="img" name="img" placeholder="choos your image" >
+          
+        </div>
+      </div>
+
+      
+    <div class="mb-3 row">
+        <label for="" class="col-sm-2 col-form-label"><i><strong>NAME</strong></i></label>
+        <div class="col-sm-10">
+          <input type="text"  class="form-control" id="name" name="name" placeholder="enter your name" >
+        </div>
+      </div>
+      
+      <div class="mb-3 row">
+        <label for="" class="col-sm-2 col-form-label"><i><b>PHONE</b></i></label>
+        <div class="col-sm-10">
+          <input type="text"  class="form-control" id="phone" name="phone" placeholder="enter your phone number">
+        </div>
+      </div>
+
+      <div class="mb-3 row">
+        <label for="" class="col-sm-2 col-form-label"><i><b>EMAIL</b></i></label>
+        <div class="col-sm-10">
+          <input type="text"  class="form-control" id="email" name="email" placeholder="enter your email name" >
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="" class="col-sm-2 col-form-label"><i><b>SCHOOL</b></i></label>
+        <div class="col-sm-10">
+          <input type="text"  class="form-control" id="school" name="school" placeholder="enter your school name" >
+        </div>
+      </div>
+      
+      <div class="mb-2 row">
+        <label for="" class="col-sm-2 col-form-label"><i><b>DEGREE</b></i></label>
+        <div class="col-sm-10">
+          <input type="text"  class="form-control" id="degree" name="degree" placeholder="enter your degree name" >
+        </div>
+      </div>
+      
+      <div class="mb-3 row">
+        <label for="" class="col-sm-2 col-form-label"><i><b>UNIVERSITY</b></i></label>
+        <div class="col-sm-10">
+          <input type="text"  class="form-control" id="university" name="university" placeholder="enter your university " >
+        </div>
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <label for="" class="col-sm-2 col-form-label"<i><b>SKILLS</b></i></label>
+      <div class="col-sm-10">
+        <input type="text area"  class="form-control" id="skills" name="skills" placeholder="tell us about your skills " >
+        
+      </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="" class="col-sm-2 col-form-label"><i><b>ABOUT YOU</b></i></label>
+        <div class="col-sm-10">
+          <input type="text area"  class="form-control" id="about_you" name="about_you" placeholder="tell us about your you " >
+          
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">submit</button></a>
+      <div class='center'>
+       <a href={% url 'list' %} class="button1" >chek resume</a>
+       </div>
+      </form>
+    </form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    width: 475.5px;
+    height: 500px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('tt.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+}
+
+.container {
+    align-items: center;
+}
+
+#inputField {
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    color: rgb(12, 11, 10);
+    background-color: rgb(185, 154, 154);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    text-decoration: orangered;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.to-dos {
+    margin-top: 25px;
+    background: rgba(255, 255, 255, 0.0);
+    /* box-shadow: 0 5px 15px rgba(0,0,0,0.25); */
+    text-decoration-style: solid;
+    font-family: 'joker', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.main_div {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

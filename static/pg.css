@@ -1,0 +1,47 @@
+body {
+    background-image: url('img/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* #carouselExampleFade
+{
+    height: 300px;
+} */
+
+#carouselExampleFade img {
+    height: 750px;
+    width: 100%;
+    padding: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div2 {
+    height: 900px;
+    width: 90%;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.card {
+    float: inherit;
+}
+
+.div3 {
+    height: 900px;
+    width: 27%;
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.div btn {
+    transition: 0.5s;
+    width: 30px;
+}

@@ -1,0 +1,13 @@
+{% extends 'authenticate/first_page.html' %}
+
+{% block content %}
+{% load static %}
+{% if user.is_authenticated %}
+	<p style="color:white;"><i><b>Name: {{user.first_name}} {{ user.last_name}}</b></i></p>
+	<p style="color:white;"><i><b>Username: {{user.username}}</b></i></p>
+	
+	<p style="color:white;"><i><b>Email: {{user.email}}</b></i></p>
+
+{% endif %}
+
+{% endblock %}

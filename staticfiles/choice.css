@@ -1,0 +1,9 @@
+.button {
+    border-radius: 25px;
+    box-shadow: 5px 10px green;
+}
+
+#button1 {
+    border-radius: 25px;
+    box-shadow: 5px 10px rgb(243, 112, 173);
+}

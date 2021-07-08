@@ -1,0 +1,40 @@
+body {
+    background-image: url("img/3.jpg");
+    background-size: 100%;
+}
+
+button {
+    background-color: #8e44ad;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.1rem;
+    width: 10%;
+    padding: 1.3rem;
+    border-radius: 25px;
+    box-shadow: 5px 8px rgb(64, 18, 107);
+}
+
+.button1 {
+    border-radius: 20px;
+    background-color: #9d20d3;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1.3rem;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

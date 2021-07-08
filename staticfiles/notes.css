@@ -1,0 +1,7 @@
+body {
+    background-image: url("img/notes.jpg");
+    /* background-size: 1100px; */
+    background-size: 100%;
+    background-color: #ece5e5;
+    opacity: 0.8;
+}

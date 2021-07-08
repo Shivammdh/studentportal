@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="{% static 'bg.css' %}" />
+<link rel="stylesheet" href="{% static 'choice.css' %}" />
+</head>
+<body>
+<marquee><h2><i><strong>WLCOME TO QUIZE</strong></i></h2></marquee>
+<h3>
+
+      
+    
+<h1 style="color:black";><i><b>SELECT YOUR CHOICE</b></i></h1>
+<br>
+<br>
+<div class="center">
+<br>
+<br>
+<a href="{% url 'python' %}" class="button" >PYTHON</a>
+<br>
+<br>
+<a href="{% url 'java' %}" class="button" style="border-radius:25px;">JAVA</a>
+<br>
+<br>
+<a href="{% url 'clang' %}" class="button" >C</a>
+<br>
+<br>
+<a href="{% url 'cpp' %}" class="button" >CPP</a>
+<br>
+<br>
+<a href="{% url 'c#' %}" class="button" >C#</a>
+</div>
+</body>
+</html>
