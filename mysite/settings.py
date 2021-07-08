@@ -26,7 +26,7 @@ SECRET_KEY = 'sth^hh8e+g%jo5(zr7+ozv0)+uq&t93u!i@2mp*kfu2+xog2b0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','spectrumstudentportal.herokuapp.com']
 
 
 # Application definition
